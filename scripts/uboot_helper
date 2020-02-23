@@ -292,6 +292,14 @@ devices = \
       },
     },
   },
+  'Hisilicon': {
+    'Atto_Pixel': {
+      'hi3798cv200': {
+        'dtb': 'hi3798cv200.dtb',
+        'config': 'hi3798cv200_defconfig'
+      },
+    },
+  },
 }
 
 def usage(PROJECT=None, SOC=None, FILE=sys.stdout):
